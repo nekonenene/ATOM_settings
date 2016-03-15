@@ -45,8 +45,6 @@
     'ctrl-y'       : 'atomic-emacs:yank'
 
 'atom-workspace atom-text-editor:not([mini])':
-    'down'      : 'atomic-emacs:next-line'
-    'up'        : 'atomic-emacs:previous-line'
     'ctrl-down' : 'atomic-emacs:scroll-up'
     'ctrl-up'   : 'atomic-emacs:scroll-down'
 
