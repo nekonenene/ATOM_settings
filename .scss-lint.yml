@@ -1,0 +1,61 @@
+scss_files: "**/*.scss"
+linters:
+  ColorVariable:
+    enabled: false
+
+  LeadingZero:
+    enabled: false
+
+  PlaceholderInExtend:
+    enabled: false
+
+  QualifyingElement:
+    enabled: false
+
+  SingleLinePerSelector:
+    enabled: false
+
+  StringQuotes:
+    enabled: true
+    style: double_quotes
+
+  Comment:
+    enabled: false
+
+  EmptyLineBetweenBlocks:
+    enabled: false
+    ignore_single_line_blocks: true
+
+  HexLength:
+    enabled: true
+    style: long
+
+  IdSelector:
+    enabled: false
+
+  SpaceAfterPropertyName:
+    enabled: false
+
+  PropertySortOrder:
+    enabled: true
+    ignore_unspecified: false
+    min_properties: 2
+    order:
+      -
+      - clear
+      - display
+      - position
+      -
+      - width
+      - height
+      - margin
+      - padding
+    separate_groups: false
+
+  ImportPath:
+    enabled: true
+    leading_underscore: false
+    filename_extension: true
+
+  FinalNewline:
+    enabled: false

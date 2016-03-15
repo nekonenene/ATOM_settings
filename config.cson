@@ -1,0 +1,81 @@
+"*":
+  "atom-alignment": {}
+  "atom-beautify":
+    _analyticsUserId: "ef6ee690-6b5e-4ddd-93e6-73b71431ba2f"
+    css_align_assignments: true
+    css_convert_quotes: "double"
+    css_indent_size: 2
+    css_preserve_newlines: true
+    html_max_preserve_newlines: 4
+    js_brace_style: "expand"
+    js_end_with_comma: true
+    js_indent_with_tabs: true
+    js_keep_array_indentation: true
+    js_keep_function_indentation: true
+    js_max_preserve_newlines: 3
+    js_space_in_paren: true
+  "atom-minify": {}
+  "autocomplete-modules": {}
+  "autocomplete-plus":
+    autoActivationDelay: 20
+    backspaceTriggersAutocomplete: true
+    minimumWordLength: 2
+  "browser-plus": {}
+  "color-picker":
+    preferredFormat: "HEX"
+    triggerKey: "K"
+  "color-tabs":
+    backgroundStyle: "solid"
+    borderStyle: "bottom"
+    markerStyle: "corner"
+  core:
+    disabledPackages: [
+      "minimap"
+      "minimap-git-diff"
+      "atom-minify"
+      "browser-plus"
+      "gulp-control"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emacs-plus"
+      "atomic-emacs"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
+  "disable-keybindings":
+    communityPackages: [
+      "emmet"
+    ]
+    exceptCommunityPackages: [
+      "emacs-plus"
+    ]
+    prefixKeys: [
+      "ctrl-k"
+    ]
+  editor:
+    fontFamily: "Migu\\ 1M"
+    invisibles: {}
+    showIndentGuide: true
+    softTabs: false
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "f11b05b5-341b-c72c-ab3d-7901738a8296"
+  "gulp-control": {}
+  linter: {}
+  "linter-haml":
+    copyRubocopYml: false
+  "linter-php":
+    executablePath: "C:/bin/php/php.exe"
+  "linter-scss-lint": {}
+  "markdown-preview": {}
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "pinned-tabs": {}
+  "spell-check": {}
+  welcome:
+    showOnStartup: false

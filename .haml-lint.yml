@@ -1,0 +1,23 @@
+skip_frontmatter: false
+
+linters:
+  LineLength:
+    enabled: false
+    max: 120
+
+  RuboCop:
+    enabled: false
+
+  SpaceBeforeScript:
+    enabled: true
+
+  SpaceInsideHashAttributes:
+    enabled: true
+    style: "no_space" # space or no_space
+
+  Indentation:
+    enabled: true
+    character: tab # space or tab
+
+  TrailingWhitespace:
+    enabled: false

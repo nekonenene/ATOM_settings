@@ -1,0 +1,60 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'atom-workspace':
+    'alt-tab'      : 'tab-switcher:next'
+    'alt-shift-tab': 'tab-switcher:previous'
+    'ctrl-z'       : 'core:undo'
+    'ctrl-shift-z' : 'core:redo'
+    'f12'          : 'window:toggle-dev-tools'
+    'ctrl-f'       : 'find-and-replace:show'
+    'ctrl-s'       : 'core:save'
+    'ctrl-x ctrl-s': 'core:save'
+    'ctrl-x h'     : 'core:select-all'
+    'ctrl-x x'     : 'core:cut'
+    'ctrl-x ctrl-x': 'core:cut'
+    'ctrl-v'       : 'core:paste'
+    'ctrl-g'       : 'core:cancel'
+    'ctrl-k'       : 'atomic-emacs:kill-line'
+    'ctrl-w'       : 'atomic-emacs:kill-region'
+    'ctrl-y'       : 'atomic-emacs:yank'
+
+'atom-workspace atom-text-editor:not([mini])':
+    'down'      : 'atomic-emacs:next-line'
+    'up'        : 'atomic-emacs:previous-line'
+    'ctrl-down' : 'atomic-emacs:scroll-up'
+    'ctrl-up'   : 'atomic-emacs:scroll-down'
+
+'atom-workspace atom-text-editor':
+    'ctrl-a' : 'atomic-emacs:back-to-indentation'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+    'ctrl-e' : 'editor:move-to-end-of-screen-line'
+
+'body':
+    'ctrl-x 1': 'atomic-emacs:close-other-panes'
