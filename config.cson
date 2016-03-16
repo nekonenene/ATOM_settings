@@ -4,8 +4,6 @@
     _analyticsUserId: "ef6ee690-6b5e-4ddd-93e6-73b71431ba2f"
     css_align_assignments: true
     css_convert_quotes: "double"
-    css_indent_char: " "
-    css_indent_size: 2
     css_preserve_newlines: true
     html_max_preserve_newlines: 4
     js_brace_style: "expand"
@@ -36,6 +34,7 @@
       "atom-minify"
       "browser-plus"
       "gulp-control"
+      "emacs-plus"
     ]
     packagesWithKeymapsDisabled: [
       "emacs-plus"
@@ -48,6 +47,7 @@
   "disable-keybindings":
     communityPackages: [
       "emmet"
+      "git-plus"
     ]
     exceptCommunityPackages: [
       "emacs-plus"
@@ -62,8 +62,10 @@
     softTabs: false
     softWrap: true
     tabLength: 4
+    tabType: "hard"
   "exception-reporting":
     userId: "f11b05b5-341b-c72c-ab3d-7901738a8296"
+  "git-plus": {}
   "gulp-control": {}
   linter:
     errorPanelHeight: 22
@@ -81,3 +83,6 @@
   "spell-check": {}
   welcome:
     showOnStartup: false
+".diff.source":
+  editor:
+    showInvisibles: true

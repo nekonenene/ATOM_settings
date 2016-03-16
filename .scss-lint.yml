@@ -26,8 +26,11 @@ linters:
     enabled: false
     ignore_single_line_blocks: true
 
+  ColorKeyword:
+    enabled: false
+    
   HexLength:
-    enabled: true
+    enabled: false
     style: long
 
   IdSelector:
@@ -59,3 +62,17 @@ linters:
 
   FinalNewline:
     enabled: false
+
+  TrailingWhitespace:
+    enabled: false
+
+  Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: tab # 'space' or 'tab'
+    width: 1
+
+  NestingDepth:
+    enabled: true
+    max_depth: 4 # default=3
+    ignore_parent_selectors: false

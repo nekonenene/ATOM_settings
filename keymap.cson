@@ -32,27 +32,36 @@
     'ctrl-z'       : 'core:undo'
     'ctrl-shift-z' : 'core:redo'
     'f12'          : 'window:toggle-dev-tools'
+	# atomic-emacs
     'ctrl-f'       : 'find-and-replace:show'
     'ctrl-s'       : 'core:save'
     'ctrl-x ctrl-s': 'core:save'
     'ctrl-x h'     : 'core:select-all'
     'ctrl-x x'     : 'core:cut'
     'ctrl-x ctrl-x': 'core:cut'
+    'ctrl-x ctrl-c': 'core:close'
     'ctrl-v'       : 'core:paste'
     'ctrl-g'       : 'core:cancel'
     'ctrl-k'       : 'atomic-emacs:kill-line'
     'ctrl-w'       : 'atomic-emacs:kill-region'
     'ctrl-y'       : 'atomic-emacs:yank'
+	# git-plus
+    'ctrl-x g l'   : 'git-plus:log'
+    'ctrl-x g c'   : 'git-plus:add-all-commit'
+    'ctrl-x g p'   : 'git-plus:add-all-commit-and-push'
+    'ctrl-x g s'   : 'git-plus:status'
+    'ctrl-x g o'   : 'git-plus:checkout'
+    'ctrl-x g d'   : 'git-plus:diff'
 
 'atom-workspace atom-text-editor:not([mini])':
     'ctrl-down' : 'atomic-emacs:scroll-up'
     'ctrl-up'   : 'atomic-emacs:scroll-down'
 
 'atom-workspace atom-text-editor':
-    'ctrl-a' : 'atomic-emacs:back-to-indentation'
+    'ctrl-a'    : 'atomic-emacs:back-to-indentation'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-    'ctrl-e' : 'editor:move-to-end-of-screen-line'
+    'ctrl-e'    : 'editor:move-to-end-of-screen-line'
 
 'body':
-    'ctrl-x 1': 'atomic-emacs:close-other-panes'
+    'ctrl-x 1'  : 'atomic-emacs:close-other-panes'
