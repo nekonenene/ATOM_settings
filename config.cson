@@ -14,6 +14,24 @@
     js_max_preserve_newlines: 3
     js_space_in_paren: true
   "atom-minify": {}
+  "auto-detect-indentation":
+    indentationTypes: [
+      {
+        name: "TAB"
+        softTabs: false
+        tabLength: 4
+      }
+      {
+        name: "4 spaces"
+        softTabs: true
+        tabLength: 4
+      }
+      {
+        name: "2 spaces"
+        softTabs: true
+        tabLength: 2
+      }
+    ]
   "autocomplete-modules": {}
   "autocomplete-plus":
     autoActivationDelay: 20
@@ -29,12 +47,10 @@
     markerStyle: "corner"
   core:
     disabledPackages: [
-      "minimap"
-      "minimap-git-diff"
       "atom-minify"
       "browser-plus"
       "gulp-control"
-      "emacs-plus"
+      "atom-cursor-indent"
     ]
     packagesWithKeymapsDisabled: [
       "emacs-plus"
