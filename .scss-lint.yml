@@ -1,78 +1,78 @@
 scss_files: "**/*.scss"
 linters:
-  ColorVariable:
-    enabled: false
+    ColorVariable:
+        enabled: false
 
-  LeadingZero:
-    enabled: false
+    LeadingZero:
+        enabled: false
 
-  PlaceholderInExtend:
-    enabled: false
+    PlaceholderInExtend:
+        enabled: false
 
-  QualifyingElement:
-    enabled: false
+    QualifyingElement:
+        enabled: false
 
-  SingleLinePerSelector:
-    enabled: false
+    SingleLinePerSelector:
+        enabled: false
 
-  StringQuotes:
-    enabled: true
-    style: double_quotes
+    StringQuotes:
+        enabled: true
+        style: "double_quotes"
 
-  Comment:
-    enabled: false
+    Comment:
+        enabled: false
 
-  EmptyLineBetweenBlocks:
-    enabled: false
-    ignore_single_line_blocks: true
+    EmptyLineBetweenBlocks:
+        enabled: false
+        ignore_single_line_blocks: true
 
-  ColorKeyword:
-    enabled: false
-    
-  HexLength:
-    enabled: false
-    style: long
+    ColorKeyword:
+        enabled: false
 
-  IdSelector:
-    enabled: false
+    HexLength:
+        enabled: false
+        style: long
 
-  SpaceAfterPropertyName:
-    enabled: false
+    IdSelector:
+        enabled: false
 
-  PropertySortOrder:
-    enabled: true
-    ignore_unspecified: false
-    min_properties: 2
-    order:
-      -
-      - clear
-      - display
-      - position
-      -
-      - width
-      - height
-      - margin
-      - padding
-    separate_groups: false
+    SpaceAfterPropertyName:
+        enabled: false
 
-  ImportPath:
-    enabled: true
-    leading_underscore: false
-    filename_extension: true
+    PropertySortOrder:
+        enabled: true
+        ignore_unspecified: false
+        min_properties: 2
+        order:
+            -
+            - clear
+            - display
+            - position
+            -
+            - width
+            - height
+            - margin
+            - padding
+        separate_groups: false
 
-  FinalNewline:
-    enabled: false
+    ImportPath:
+        enabled: true
+        leading_underscore: false
+        filename_extension: true
 
-  TrailingWhitespace:
-    enabled: false
+    FinalNewline:
+        enabled: false
 
-  Indentation:
-    enabled: true
-    allow_non_nested_indentation: false
-    character: tab # 'space' or 'tab'
-    width: 1
+    TrailingWhitespace:
+        enabled: false
 
-  NestingDepth:
-    enabled: true
-    max_depth: 4 # default=3
-    ignore_parent_selectors: false
+    Indentation:
+        enabled: true
+        allow_non_nested_indentation: false
+        character: tab # 'space' or 'tab'
+        width: 1
+
+    NestingDepth:
+        enabled: true
+        max_depth: 4 # default=3
+        ignore_parent_selectors: false
