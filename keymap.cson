@@ -46,12 +46,13 @@
 	'ctrl-w'       : 'atomic-emacs:kill-region'
 	'ctrl-y'       : 'atomic-emacs:yank'
 	# git-plus
-	'ctrl-x g l'   : 'git-plus:log'
-	'ctrl-x g c'   : 'git-plus:add-all-commit'
-	'ctrl-x g p'   : 'git-plus:add-all-commit-and-push'
-	'ctrl-x g s'   : 'git-plus:status'
-	'ctrl-x g o'   : 'git-plus:checkout'
-	'ctrl-x g d'   : 'git-plus:diff'
+	'ctrl-x g l'       : 'git-plus:log'
+	'ctrl-x g c'       : 'git-plus:add-all-commit'
+	'ctrl-x g p'       : 'git-plus:add-all-commit-and-push'
+	'ctrl-x g s'       : 'git-plus:status'
+	'ctrl-x g o'       : 'git-plus:checkout'
+	'ctrl-x g d'       : 'git-plus:diff'
+	'ctrl-alt-shift-S' : 'project-manager:save-project'
 
 'atom-workspace atom-text-editor:not([mini])':
 	'ctrl-down'    : 'atomic-emacs:scroll-up'

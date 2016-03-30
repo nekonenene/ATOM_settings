@@ -1,23 +1,18 @@
 "*":
+  "atom-alignment": {}
   "atom-beautify":
     _analyticsUserId: "ef6ee690-6b5e-4ddd-93e6-73b71431ba2f"
-    cfml_brace_style: "expand"
     css_align_assignments: true
     css_convert_quotes: "double"
-    css_indent_char: "\t"
-    css_indent_size: 1
     css_preserve_newlines: true
-    html_indent_char: "\t"
-    html_indent_size: 1
-    html_max_preserve_newlines: 3
+    html_max_preserve_newlines: 4
     js_brace_style: "expand"
-    js_indent_char: "\t"
-    js_indent_size: 1
+    js_end_with_comma: true
     js_indent_with_tabs: true
     js_keep_array_indentation: true
     js_keep_function_indentation: true
     js_max_preserve_newlines: 3
-    js_space_before_conditional: false
+    js_space_in_paren: true
   "atom-minify": {}
   "auto-detect-indentation":
     indentationTypes: [
@@ -42,6 +37,7 @@
     autoActivationDelay: 20
     backspaceTriggersAutocomplete: true
     minimumWordLength: 2
+  "browser-plus": {}
   "color-picker":
     preferredFormat: "HEX"
     triggerKey: "K"
@@ -51,9 +47,12 @@
     markerStyle: "corner"
   core:
     disabledPackages: [
+      "atom-minify"
       "browser-plus"
       "gulp-control"
+      "atom-cursor-indent"
       "atom-bootstrap3"
+      "markdown-writer"
     ]
     packagesWithKeymapsDisabled: [
       "emacs-plus"
@@ -69,7 +68,7 @@
       "git-plus"
     ]
     exceptCommunityPackages: [
-      "atomic-emacs"
+      "emacs-plus"
     ]
     prefixKeys: [
       "ctrl-k"
@@ -78,7 +77,6 @@
     fontFamily: "Migu\\ 1M"
     invisibles: {}
     showIndentGuide: true
-    showInvisibles: true
     softTabs: false
     softWrap: true
     tabLength: 4
@@ -87,8 +85,6 @@
     userId: "f11b05b5-341b-c72c-ab3d-7901738a8296"
   "git-plus": {}
   "gulp-control": {}
-  "highlight-selected":
-    highlightBackground: true
   linter:
     errorPanelHeight: 22
   "linter-haml":
@@ -102,5 +98,10 @@
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+  "pinned-tabs": {}
+  "spell-check": {}
   welcome:
     showOnStartup: false
+".diff.source":
+  editor:
+    showInvisibles: true
