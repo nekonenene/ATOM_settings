@@ -53,6 +53,7 @@
 	'ctrl-x g o'       : 'git-plus:checkout'
 	'ctrl-x g d'       : 'git-plus:diff'
 	'ctrl-alt-shift-S' : 'project-manager:save-project'
+	'ctrl-alt-shift-L' : 'project-manager:list-projects'
 
 'atom-workspace atom-text-editor:not([mini])':
 	'ctrl-down'    : 'atomic-emacs:scroll-up'

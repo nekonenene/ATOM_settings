@@ -85,14 +85,15 @@
     tabType: "hard"
   "exception-reporting":
     userId: "f11b05b5-341b-c72c-ab3d-7901738a8296"
+  "file-icons": {}
   "git-plus": {}
   "gulp-control": {}
-  "highlight-selected":
-    highlightBackground: true
+  "highlight-selected": {}
   linter:
     errorPanelHeight: 22
   "linter-haml":
     copyRubocopYml: false
+  "linter-jshint": {}
   "linter-php":
     executablePath: "C:/bin/php/php.exe"
   "linter-scss-lint": {}
