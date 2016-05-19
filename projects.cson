@@ -1,10 +1,35 @@
-growing_of_square:
-  title: "growing_of_square"
+kunitachi:
+  title: "kunitachi"
   paths: [
-    "C:\\MyProgramming\\WEB\\growing_of_square"
+    "/Users/radio7954/Programs/web/kunitachi"
+  ]
+"joke-elegant":
+  title: "joke-elegant"
+  paths: [
+    "/Users/radio7954/github/joke-elegant"
+  ]
+"jk-elegant":
+  title: "jk-elegant"
+  paths: [
+    "/Users/radio7954/github/jk-elegant"
   ]
 facebook_api_test:
-  title: "Facebook_api_test"
+  title: "facebook_API_test"
   paths: [
-    "C:\\MyProgramming\\web\\facebook_api_test"
+    "/Users/radio7954/Programs/web/facebook_API_test"
+  ]
+a_cake_php:
+  title: "a_cake_php"
+  paths: [
+    "/Users/radio7954/Programs/web/a_cake_php"
+  ]
+kindle_cake:
+  title: "Kindle_cake"
+  paths: [
+    "/Users/radio7954/Programs/web/kindle_cake"
+  ]
+js_algorithm:
+  title: "JS_algorithm"
+  paths: [
+    "/Users/radio7954/Programs/web/js_algorithm"
   ]

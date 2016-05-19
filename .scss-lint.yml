@@ -38,7 +38,9 @@ linters:
 
     SpaceAfterPropertyName:
         enabled: false
-
+    SpaceAfterVariableName:
+        enabled: false
+    
     PropertySortOrder:
         enabled: true
         ignore_unspecified: false

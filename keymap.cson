@@ -47,7 +47,7 @@
 	'ctrl-y'       : 'atomic-emacs:yank'
 	# git-plus
 	'ctrl-x g l'       : 'git-plus:log'
-	'ctrl-x g c'       : 'git-plus:add-all-commit'
+	'ctrl-x g c'       : 'git-plus:add-all-and-commit'
 	'ctrl-x g p'       : 'git-plus:add-all-commit-and-push'
 	'ctrl-x g s'       : 'git-plus:status'
 	'ctrl-x g o'       : 'git-plus:checkout'
@@ -70,3 +70,6 @@
 
 'body':
 	'ctrl-x 1'  : 'atomic-emacs:close-other-panes'
+
+'atom-text-editor':
+	'ctrl-k': 'atomic-emacs:kill-line'

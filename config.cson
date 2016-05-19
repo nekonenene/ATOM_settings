@@ -1,24 +1,25 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "ef6ee690-6b5e-4ddd-93e6-73b71431ba2f"
+    _analyticsUserId: "ae9670c0-0f0f-4c13-aab6-c075d8863054"
     cfml_brace_style: "expand"
     css_align_assignments: true
     css_convert_quotes: "double"
-    css_indent_char: "\t"
-    css_indent_size: 1
     css_preserve_newlines: true
-    html_indent_char: "\t"
-    html_indent_size: 1
+    general:
+      _analyticsUserId: "27e91656-477a-4190-858b-03c699a738b4"
     html_max_preserve_newlines: 3
     js_brace_style: "expand"
-    js_indent_char: "\t"
-    js_indent_size: 1
     js_indent_with_tabs: true
     js_keep_array_indentation: true
     js_keep_function_indentation: true
     js_max_preserve_newlines: 3
     js_space_before_conditional: false
   "atom-minify": {}
+  "atom-ternjs":
+    displayAboveSnippets: true
+    excludeLowerPriorityProviders: true
+    useSnippets: true
+    useSnippetsAndFunction: true
   "auto-detect-indentation":
     indentationTypes: [
       {
@@ -37,31 +38,30 @@
         tabLength: 2
       }
     ]
-  "autocomplete-modules": {}
   "autocomplete-plus":
-    autoActivationDelay: 20
+    autoActivationDelay: 10
     backspaceTriggersAutocomplete: true
-    minimumWordLength: 2
+    minimumWordLength: 1
   "color-picker":
     preferredFormat: "HEX"
     triggerKey: "K"
   "color-tabs":
-    backgroundStyle: "solid"
+    backgroundStyle: "none"
     borderStyle: "bottom"
     markerStyle: "corner"
   core:
+    closeEmptyWindows: false
     disabledPackages: [
-      "browser-plus"
-      "gulp-control"
       "atom-bootstrap3"
+      "autocomplete-html"
+      "autocomplete-paths"
+      "minimap"
     ]
+    openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
-      "emacs-plus"
+      "emmet"
       "atomic-emacs"
-    ]
-    themes: [
-      "atom-dark-ui"
-      "atom-dark-syntax"
+      "emacs-plus"
     ]
   "disable-keybindings":
     communityPackages: [
@@ -75,7 +75,7 @@
       "ctrl-k"
     ]
   editor:
-    fontFamily: "Migu\\ 1M"
+    backUpBeforeSaving: true
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -84,24 +84,22 @@
     tabLength: 4
     tabType: "hard"
   "exception-reporting":
-    userId: "f11b05b5-341b-c72c-ab3d-7901738a8296"
-  "file-icons": {}
+    userId: "a3543d3c-e4b7-617a-7d58-06a101aa34df"
   "git-plus": {}
   "gulp-control": {}
-  "highlight-selected": {}
   linter:
-    errorPanelHeight: 22
-  "linter-haml":
-    copyRubocopYml: false
-  "linter-jshint": {}
-  "linter-php":
-    executablePath: "C:/bin/php/php.exe"
-  "linter-scss-lint": {}
-  "markdown-preview": {}
-  "merge-conflicts": {}
+    showErrorPanel: false
+  "linter-php": {}
+  "linter-scss-lint":
+    executablePath: "/Users/radio7954/.rbenv/shims/scss-lint"
   minimap:
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
+  "tab-switcher": {}
   welcome:
     showOnStartup: false
+".angular.html.text":
+  editor:
+    preferredLineLength: 200
+    tabLength: 1
