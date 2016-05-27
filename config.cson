@@ -19,10 +19,7 @@
     js_max_preserve_newlines: 3
     js_space_before_conditional: false
   "atom-minify": {}
-  "atom-symfony2":
-    console: [
-      "app/bin"
-    ]
+  "atom-symfony2": {}
   "auto-detect-indentation":
     indentationTypes: [
       {
@@ -64,6 +61,7 @@
       "emmet"
       "emacs-plus"
       "atomic-emacs"
+      "atom-autocomplete-php"
     ]
   "disable-keybindings":
     communityPackages: [
@@ -95,6 +93,7 @@
   "linter-jshint":
     lintInlineJavaScript: true
   "linter-scss-lint": {}
+  "linter-twig": {}
   minimap:
     plugins:
       "git-diff": true
@@ -109,3 +108,37 @@
   editor:
     preferredLineLength: 200
     tabLength: 1
+".css.source.twig":
+  editor:
+    preferredLineLength: 120
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
+".html.text.twig":
+  editor:
+    preferredLineLength: 120
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
+".js.source.twig":
+  editor:
+    preferredLineLength: 120
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
+".json.source.twig":
+  editor:
+    preferredLineLength: 120
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
+".source.twig":
+  editor:
+    preferredLineLength: 120
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
+".source.twig.yaml":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".text.twig.xml":
+  editor:
+    preferredLineLength: 120
+    softWrapAtPreferredLineLength: false
+    tabLength: 4
