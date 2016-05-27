@@ -1,0 +1,25 @@
+qiitatogithubwiki:
+  title: "Qiita to Github Wiki"
+  paths: [
+    "/Users/Yokoe/Programs/QiitaToGithubWiki"
+  ]
+uuumhomepage:
+  title: "UUUM Homepage"
+  paths: [
+    "/Users/Yokoe/Programs/uuum-homepage"
+  ]
+ansible:
+  title: "ansible"
+  paths: [
+    "/Users/Yokoe/Programs/ansible"
+  ]
+porta:
+  title: "Porta"
+  paths: [
+    "/Users/Yokoe/Programs/porta"
+  ]
+"symphonypracticeapp-lts":
+  title: "SymPhony Practice App-LTS"
+  paths: [
+    "/Users/Yokoe/Programs/symfony-tutorial/practice_app_lts"
+  ]

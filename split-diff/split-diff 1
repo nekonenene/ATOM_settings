@@ -1,0 +1,82 @@
+-   name: create nginx sites-available directory
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    file:
+        path=/home/{{ item.user }}/etc/nginx/sites-available
+        state=directory
+        owner="{{ item.user }}"
+        group="{{ item.user }}"
+
+-   name: add nginx config file
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    template:
+        src=nginx/etc/projects.j2
+        dest=/home/{{ item.user }}/etc/nginx/sites-available/projects
+        owner="{{ item.user }}"
+        group="{{ item.user }}"
+
+-   name: create nginx sites-enabled directory
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    file:
+        path=/home/{{ item.user }}/etc/nginx/sites-enabled
+        state=directory
+        owner="{{ item.user }}"
+        group="{{ item.user }}"
+
+-   name: enable nginx config file
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    file:
+        src=../sites-available/projects
+        dest=/home/{{ item.user }}/etc/nginx/sites-enabled/projects
+        state=link
+        owner="{{ item.user }}"
+        group="{{ item.user }}"
+
+-   name: create nginx projects sites-available directory
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    file:
+        path=/home/{{ item.user }}/projects/etc/nginx/sites-available
+        state=directory
+        owner="{{ item.user }}"
+        group="{{ item.user }}"
+
+-   name: add nginx projects config file
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    template:
+        src=nginx/projects/projects.j2
+        dest=/home/{{ item.user }}/projects/etc/nginx/sites-available/projects
+        owner="{{ item.user }}"
+        group="{{ item.user }}"
+
+-   name: create nginx projects sites-enabled directory
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    file:
+        path=/home/{{ item.user }}/projects/etc/nginx/sites-enabled
+        state=directory
+        owner="{{ item.user }}"
+        group="{{ item.user }}"
+
+-   name: enable nginx projects config file
+    become: yes
+    become_user: root
+    with_items: "{{ users }}"
+    notify: reload nginx
+    file:
+        src=../sites-available/projects
+        dest=/home/{{ item.user }}/projects/etc/nginx/sites-enabled/projects
+        state=link
+        owner="{{ item.user }}"
+        group="{{ item.user }}"

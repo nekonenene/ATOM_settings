@@ -1,0 +1,111 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "ae9670c0-0f0f-4c13-aab6-c075d8863054"
+    cfml_brace_style: "expand"
+    css_align_assignments: true
+    css_convert_quotes: "double"
+    css_indent_char: "\t"
+    css_indent_size: 1
+    css_preserve_newlines: true
+    html_indent_char: "\t"
+    html_indent_size: 1
+    html_max_preserve_newlines: 3
+    js_brace_style: "expand"
+    js_indent_char: "\t"
+    js_indent_size: 1
+    js_indent_with_tabs: true
+    js_keep_array_indentation: true
+    js_keep_function_indentation: true
+    js_max_preserve_newlines: 3
+    js_space_before_conditional: false
+  "atom-minify": {}
+  "atom-symfony2":
+    console: [
+      "app/bin"
+    ]
+  "auto-detect-indentation":
+    indentationTypes: [
+      {
+        name: "TAB"
+        softTabs: false
+        tabLength: 4
+      }
+      {
+        name: "4 spaces"
+        softTabs: true
+        tabLength: 4
+      }
+      {
+        name: "2 spaces"
+        softTabs: true
+        tabLength: 2
+      }
+    ]
+  "autocomplete-plus":
+    autoActivationDelay: 20
+    backspaceTriggersAutocomplete: true
+    minimumWordLength: 2
+  "color-picker":
+    preferredFormat: "HEX"
+    triggerKey: "K"
+  "color-tabs":
+    backgroundStyle: "none"
+    borderStyle: "bottom"
+    markerStyle: "corner"
+  core:
+    closeEmptyWindows: false
+    disabledPackages: [
+      "atom-bootstrap3"
+      "autocomplete-html"
+      "zentabs"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "emmet"
+      "emacs-plus"
+      "atomic-emacs"
+    ]
+  "disable-keybindings":
+    communityPackages: [
+      "emmet"
+      "git-plus"
+    ]
+    exceptCommunityPackages: [
+      "atomic-emacs"
+    ]
+    prefixKeys: [
+      "ctrl-k"
+      "cmd-w"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    invisibles: {}
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "a3543d3c-e4b7-617a-7d58-06a101aa34df"
+  "gulp-control": {}
+  linter:
+    showErrorPanel: false
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-scss-lint": {}
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "tab-switcher": {}
+  welcome:
+    showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 8
+    showPinnedIcon: false
+".angular.html.text":
+  editor:
+    preferredLineLength: 200
+    tabLength: 1
