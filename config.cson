@@ -1,4 +1,9 @@
 "*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+    fuzzyMatch: true
+    helmDirSwitch: true
   "atom-beautify":
     _analyticsUserId: "ae9670c0-0f0f-4c13-aab6-c075d8863054"
     cfml_brace_style: "expand"
@@ -7,6 +12,8 @@
     css_indent_char: "\t"
     css_indent_size: 1
     css_preserve_newlines: true
+    general:
+      _analyticsUserId: "80ee1165-2265-4921-a4c3-e811fcabbc49"
     html_indent_char: "\t"
     html_indent_size: 1
     html_max_preserve_newlines: 3
@@ -96,6 +103,8 @@
   "linter-twig": {}
   minimap:
     plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
   "tab-switcher": {}

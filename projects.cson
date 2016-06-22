@@ -1,13 +1,3 @@
-qiitatogithubwiki:
-  title: "Qiita to Github Wiki"
-  paths: [
-    "/Users/Yokoe/Programs/QiitaToGithubWiki"
-  ]
-uuumhomepage:
-  title: "UUUM Homepage"
-  paths: [
-    "/Users/Yokoe/Programs/uuum-homepage"
-  ]
 ansible:
   title: "ansible"
   paths: [

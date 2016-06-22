@@ -70,7 +70,11 @@
 	'ctrl-e'    : 'editor:move-to-end-of-screen-line'
 
 'body':
-	'ctrl-x 1'  : 'atomic-emacs:close-other-panes'
+	'ctrl-tab ^ctrl'       : 'unset!'
+	'ctrl-tab'             : 'pane:show-next-item'
+	'ctrl-shift-tab ^ctrl' : 'unset!'
+	'ctrl-shift-tab'       : 'pane:show-previous-item'
+	'ctrl-x 1'             : 'atomic-emacs:close-other-panes'
 
 'atom-text-editor':
 	'ctrl-k'       : 'atomic-emacs:kill-line'

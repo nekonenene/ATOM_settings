@@ -34,3 +34,13 @@ atom-text-editor::shadow .cursor {
 .markdown-preview.markdown-preview {
     font-family: "Migu 1M";
 }
+
+// 全角スペース強調
+atom-text-editor, atom-text-editor::shadow {
+  .highlight.ideographic-space {
+    .region:after {
+      color: #f273b4;
+      background-color: #dfdfdf;
+    }
+  }
+}
